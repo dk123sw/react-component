@@ -1,0 +1,41 @@
+.component-tabs {
+    .tabs-ul {
+      width: 100%;
+      background: white;
+      border-bottom: 1px solid white;
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      font-size: 0.8rem;
+      li {
+        height: 8vh;
+        line-height: 8vh;
+        flex: 1;
+        color: black;
+        &.active {
+          color: #ff9933;
+          border-bottom: 2px solid #ff9933;
+        }
+      }
+    }
+    .tabs-contents {
+      .tabs-content {
+        height: 92vh;
+      }
+      .active {
+        display: block;
+      }
+    }
+}
+html .hide{
+  display: none;
+}
+
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,
+legend,button,input,textarea,th,td{
+  margin: 0;
+  padding: 0;
+}
+ul,ol{
+  list-style: none;
+}
