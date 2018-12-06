@@ -1,0 +1,22 @@
+#nav {
+        width:100vw;
+        height:60px;
+        background:#39f;
+        color:#fff;
+        line-height:60px;
+        text-align:center;
+        padding:0;
+        margin:0;
+        list-style:none;
+}
+
+#nav li {
+       float:left;
+       width:20%;
+       height:60px;
+}
+.fix {
+       position:fixed;
+       top:60px;
+       left:0;
+}
