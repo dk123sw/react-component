@@ -51,9 +51,6 @@ export default class extends React.Component {
         let _this =this;
         geolocation.getCurrentPosition(function (r) {
             map.centerAndZoom(r.point,15);
-            let circle = new BMap.Circle(r.point,10, {fillColor:'black', strokeWeight:1, strokeColor:'red'});
-            console.log(circle.getBounds());
-            map.addOverlay(circle);
             _this.drawCircle(r.point);
             _this.point = r.point;
 
